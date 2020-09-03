@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container main-nav">
         <a href="./index.html" lang="en" class="logo">Web<span class="logo-header">Studio</span></a>
         <nav>
@@ -27,7 +27,7 @@
     </header>
     <main>
       <!--Hero-->
-      <section class="hero">
+      <section class="section hero">
         <div class="hero-container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="hero-button">Заказать услугу</button>
@@ -37,19 +37,19 @@
       <section class="section features">
         <div class="container">
           <ul class="features-list flexbox">
-            <li class="features-item">
+            <li class="features-item attention">
               <h2 class="features-titel">Внимание к деталям</h2>
               <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li class="features-item">
+            <li class="features-item punctuality">
               <h2 class="features-titel">Пунктуальность</h2>
               <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li class="features-item">
+            <li class="features-item planning">
               <h2 class="features-titel">Планирование</h2>
               <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li class="features-item">
+            <li class="features-item technology">
               <h2 class="features-titel">Современные технологии</h2>
               <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
@@ -57,7 +57,7 @@
         </div>
       </section>
       <!--Our Job-->
-      <section class="job">
+      <section class="section job">
         <div class="container">
           <h2 class="job-titel">Чем мы занимаемся</h2>
           <ul class="job-list flexbox">
@@ -82,28 +82,148 @@
               <img class="team-img" src="./images/teamcard1.jpg" alt="Игорь Демьяненко" width="270" />
               <h3 class="team-worker-title">Игорь Демьяненко</h3>
               <p class="team-worker-text" lang="en">Product Designer</p>
+              <ul class="social-icon-list">
+                <li class="social-icon-item">
+                  <a href="https://www.instagram.com/?hl=ru" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Инстаграм">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://twitter.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Твиттер">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://www.facebook.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Фейсбук">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://ru.linkedin.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Линкедин">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-item">
               <img class="team-img" src="./images/teamcard2.jpg" alt="Ольга Репина" width="270" />
               <h3 class="team-worker-title">Ольга Репина</h3>
               <p class="team-worker-text" lang="en">Frontend Developer</p>
+              <ul class="social-icon-list">
+                <li class="social-icon-item">
+                  <a href="https://www.instagram.com/?hl=ru" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Инстаграм">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://twitter.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Твиттер">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://www.facebook.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Фейсбук">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://ru.linkedin.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Линкедин">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-item">
               <img class="team-img" src="./images/teamcard3.jpg" alt="Николай Тарасов" width="270" />
               <h3 class="team-worker-title">Николай Тарасов</h3>
               <p class="team-worker-text" lang="en">Marketing</p>
+              <ul class="social-icon-list">
+                <li class="social-icon-item">
+                  <a href="https://www.instagram.com/?hl=ru" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Инстаграм">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://twitter.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Твиттер">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://www.facebook.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Фейсбук">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://ru.linkedin.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Линкедин">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-item">
               <img class="team-img" src="./images/teamcard4.jpg" alt="Михаил Ермаков" width="270" />
               <h3 class="team-worker-title">Михаил Ермаков</h3>
               <p class="team-worker-text" lang="en">UI Designer</p>
+              <ul class="social-icon-list">
+                <li class="social-icon-item">
+                  <a href="https://www.instagram.com/?hl=ru" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Инстаграм">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://twitter.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Твиттер">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://www.facebook.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Фейсбук">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon-item">
+                  <a href="https://ru.linkedin.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="ccылка Линкедин">
+                    <svg class="social-icon">
+                      <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <!--Footer-->
-    <footer id="contacts">
+    <footer id="contacts" class="footer">
       <div class="container">
         <div class="footer-contacts">
           <a href="./index.html" lang="en" class="logo logo-down">Web<span class="logo-footer">Studio</span></a>
