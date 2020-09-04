@@ -365,10 +365,12 @@ h3 {
   background-color: var(--white);
   border-radius: 50%;
 }
+/*
+Свойство прописано ниже в секции .social-icon.join-icon!
 .social-icon-link:hover,
 :focus {
   background-color: var(--accent-link-color);
-}
+}*/
 
 .social-icon-link:hover,
 :focus .social-icon {
@@ -495,13 +497,19 @@ h3 {
   justify-content: start;
 }
 
-/*.social-icon-link .join-link {
-  fill: tomato;
+.social-icon-link.join-link {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-icon .join-icon {
-  --color2: tomato;
-}*/
+.social-icon.join-icon {
+  --color2: var(--white);
+}
+
+.social-icon-link:hover,
+:focus {
+  background-color: var(--accent-link-color);
+}
+
 /*Portfolio*/
 
 .projects-selection-list {
