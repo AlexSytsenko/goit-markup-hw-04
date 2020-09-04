@@ -436,6 +436,7 @@ h3 {
   padding-top: 60px;
   padding-bottom: 60px;
   width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
 }
 
 .logo-down {
@@ -470,6 +471,37 @@ h3 {
   margin-bottom: 10px;
 }
 
+.join-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.join-contacts {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  width: calc((100% - 30px * 3) / 4);
+}
+
+/*.social-icon-list .join-list {
+  justify-items: start;
+}*/
+
+.footerella .join-list {
+  justify-content: start;
+}
+
+/*.social-icon-link .join-link {
+  fill: tomato;
+}
+
+.social-icon .join-icon {
+  --color2: tomato;
+}*/
 /*Portfolio*/
 
 .projects-selection-list {
