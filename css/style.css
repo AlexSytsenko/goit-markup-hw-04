@@ -123,6 +123,8 @@ h3 {
 
 .address-nav {
   margin-left: auto;
+  display: flex;
+  align-content: center;
 }
 
 .address-nav .link:not(:last-child) {
@@ -371,7 +373,7 @@ h3 {
 /*
 Свойство прописано ниже в секции .social-icon.join-icon!
 .social-icon-link:hover,
-:focus {
+.social-icon-link:focus {
   background-color: var(--accent-link-color);
 }*/
 
