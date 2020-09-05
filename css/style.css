@@ -404,7 +404,6 @@ h3 {
 
 .customers-item {
   width: calc((100% - 30px * 5) / 6);
-  width: 170px;
   height: 90px;
 }
 
