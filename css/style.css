@@ -492,11 +492,7 @@ h3 {
   width: calc((100% - 30px * 3) / 4);
 }
 
-/*.social-icon-list .join-list {
-  justify-items: start;
-}*/
-
-.footerella .join-list {
+.social-icon-list.join-list {
   justify-content: start;
 }
 
@@ -509,7 +505,7 @@ h3 {
 }
 
 .social-icon-link:hover,
-:focus {
+.social-icon-link:focus {
   background-color: var(--accent-link-color);
 }
 
