@@ -67,6 +67,7 @@ h3 {
   margin-right: auto;
   margin-left: auto;
   background-color: var(--white);
+  border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
@@ -161,9 +162,11 @@ h3 {
 
 /*Hero*/
 .hero {
-  background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg), #c4c4c4;
+  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg), #c4c4c4;
+  background-position: center;
   text-align: center;
 }
 
